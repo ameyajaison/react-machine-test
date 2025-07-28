@@ -34,7 +34,7 @@ const CountryList = () => {
           <Col key={idx}>
             <Card
               className="flex-row align-items-center h-100"
-              style={{ borderRadius: "0", border: "2px solid #000" }}
+              style={{ borderRadius: "0", border: "2px solid #000" ,boxShadow: "5px 5px 0 rgba(0, 0, 0, 0.4)"}}
             >
               <Card.Img
                 src={country.flag}
@@ -49,10 +49,9 @@ const CountryList = () => {
           </Col>
         ))}
       </Row>
-
       {visibleCount < all.length && (
-        <div className="text-center mt-4">
-          <Button variant="dark" onClick={() => dispatch(loadMore())}>
+        <div className="text-center mt-4" >
+          <Button variant="dark" onClick={() => dispatch(loadMore())} style={{borderRadius: 0}}>
             Load More
           </Button>
         </div>
