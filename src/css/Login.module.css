@@ -1,0 +1,100 @@
+.signInText {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0;
+}
+.newUserText {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal; /* 'Bold' is not a valid value here */
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+.createAccountLink {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #007bff; /* optional: style as a link */
+  text-decoration: none; /* optional: remove underline */
+}
+
+.createAccountLink:hover {
+  text-decoration: underline; /* optional: add underline on hover */
+}
+
+.customInput {
+  border: 2px solid #3E3E3E !important;
+  height: 48px !important;
+  width: 280px !important;
+  border-radius: 0 !important; /* remove curved corners */
+}
+.customCheckbox input[type="checkbox"] {
+  border: 2px solid #3E3E3E !important;
+  width: 18px;
+  height: 18px;
+  border-radius: 0 !important;
+}
+.signInButton {
+  width: 280px;
+  height: 48px;
+  opacity: 1;
+  border-radius: 0!important; 
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 24px 0;
+  width: 100%; /* make it responsive */
+  max-width: 280px; /* match your form/input width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.dividerLine {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #3e3e3e;
+  opacity: 1;
+}
+
+.dividerText {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.socialIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background-color: #fff; /* or transparent */
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.errorAlert {
+  width: 280px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  background-color: #f8d7da;
+  color: #842029;
+}
+
